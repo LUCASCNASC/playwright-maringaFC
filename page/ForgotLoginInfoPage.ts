@@ -2,7 +2,7 @@ import { faker } from '@faker-js/faker';
 
 export class ForgotLoginInfoPage {
     
-    // clickRegister() {
+    // clickForgotLoginInfo() {
     //     cy.contains('Register').click();
     // }
 }

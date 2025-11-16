@@ -2,7 +2,7 @@ import { faker } from '@faker-js/faker';
 
 export class SolutionsPage {
     
-    // clickRegister() {
+    // clickSolutions() {
     //     cy.contains('Register').click();
     // }
 }

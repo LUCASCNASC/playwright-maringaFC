@@ -2,7 +2,7 @@ import { faker } from '@faker-js/faker';
 
 export class SendEmailPage {
     
-    // clickRegister() {
+    // clickSendEmail() {
     //     cy.contains('Register').click();
     // }
 }
