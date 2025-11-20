@@ -8,16 +8,16 @@ export class LoginPage {
     this.page = page;
   }
 
-  async fillUsername() {
-    await this.page.locator('input[name="username"]').fill(users.validUser.username);
+  async fillEmail() {
+    await this.page.locator('input[name="email"]').fill(users.validUser.email);
   }
 
   async fillPassword() {
     await this.page.locator('input[type="password"]').fill(users.validUser.password);
   }
 
-  async clickEnter() {
-    await this.page.getByRole('button', { name: 'Log In' }).click();
-    await expect(this.page.getByText('Balance includes deposits that may be subject to holds')).toBeVisible();
+  async clickAcessar() {
+    await this.page.getByRole('button', { name: 'Acessar' }).click();
+    await expect(this.page.getByText('Saldo em conta')).toBeVisible();
   }
 }
