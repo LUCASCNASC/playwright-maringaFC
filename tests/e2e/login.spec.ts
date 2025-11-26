@@ -7,5 +7,5 @@ test('Login Successful', async ({ page }) => {
   await page.goto('/');
   await loginPage.fillEmail();
   await loginPage.fillPassword();
-  await loginPage.clickAcessar();
+  await loginPage.clickSignin();
 });

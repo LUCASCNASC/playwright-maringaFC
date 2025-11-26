@@ -16,8 +16,8 @@ export class LoginPage {
     await this.page.locator('input[type="password"]').fill(users.validUser.password);
   }
 
-  async clickAcessar() {
-    await this.page.getByRole('button', { name: 'Acessar' }).click();
-    await expect(this.page.getByText('Saldo em conta')).toBeVisible();
+  async clickSignin() {
+    await this.page.click('button[type="submit"]');
+    await expect(this.page.getByText('Projects')).toBeVisible();
   }
 }
