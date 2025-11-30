@@ -10,7 +10,7 @@ test('login sucessful', async ({ page }) => {
   loginPage.clickMinhaConta()
   await page.waitForTimeout(2000)
   loginPage.fillEmail(users.validUser.email)
-  // loginPage.fillSenha(users.validUser.password)
-  // loginPage.clickProsseguir()
+  loginPage.fillSenha(users.validUser.password)
+  loginPage.clickProsseguir()
 
 });
