@@ -22,5 +22,4 @@ export class LoginPage {
   async clickProsseguir() {
     await this.page.getByRole('button', { name: 'Prosseguir' }).click();
   }
-
 }

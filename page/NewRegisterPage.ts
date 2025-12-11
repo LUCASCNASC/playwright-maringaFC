@@ -69,8 +69,6 @@ export class NewRegisterPage {
   }
 
   //Endereço
-  
-  
 
   async fillCEP(senha:string) {
     await this.page.fill('#id_cep', '87065300');
@@ -103,6 +101,4 @@ export class NewRegisterPage {
   async selectEstado() {
     await this.page.selectOption('#id_estado', { label: 'Paraná' });
   }
-
-
 }

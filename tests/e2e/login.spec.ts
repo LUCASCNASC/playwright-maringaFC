@@ -8,7 +8,6 @@ test('login sucessful', async ({ page }) => {
 
   await page.goto('/');
   
-
   await page.locator('.fancybox-skin').waitFor({ timeout: 13000 });
   await page.locator('.fancybox-skin .fancybox-close').click();
   loginPage.clickMinhaConta()
