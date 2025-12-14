@@ -36,4 +36,4 @@ test('Create New Register - pessoa física - masculino', async ({ page }) => {
   await page.fill('#id_cep', '87065300');
   await page.fill('#id_numero', '1234');
 
-  });
+});
