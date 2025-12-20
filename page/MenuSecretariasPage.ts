@@ -29,7 +29,9 @@ export class MenuSecretariasPage {
 
   //clicar no submenu Gabinete do Prefeito
   async clickSubmenuGabinetePrefeito() {
-    await this.page.getByRole('link', { name: 'Gabinete do Prefeito' }).click();
+    //await this.page.getByRole('link', { name: 'Gabinete do Prefeito' }).click();
+    
+
   }
 
   //clicar no submenu Aceleração Econômica E Turismo
