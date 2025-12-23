@@ -1,6 +1,5 @@
 import { test, expect } from '@playwright/test';
 import { MenuInicioPage } from '../../page/MenuInicioPage';
-import users from '../data/users.json'
 
 let menuInicioPage: MenuInicioPage;
 
