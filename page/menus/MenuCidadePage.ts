@@ -7,7 +7,7 @@ export class MenuCidadePage {
     this.page = page;
   }
 
-  //clicar no menu A Cidade
+  //clicar no menu A Cidade - NÃO ESTÁ FUNCIONANDO NOS TESTES
   async clickACidade() {
     await this.page.locator('a').filter({ hasText: /^A Cidade$/ }).click();
   }
