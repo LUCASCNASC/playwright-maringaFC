@@ -16,97 +16,109 @@ test('Cidadão -> Farmácia Móvel', async ({ page }) => {
 });
 
 test('Cidadão -> Resid. Médica Edital 2026', async ({ page }) => {
-  //await cidadaoPage.clickFarmaciaMovel();
+  await cidadaoPage.clickResidMedicaEdital();
 });
 
 test('Cidadão -> PSS Educação 2025', async ({ page }) => {
-  //await menuInicioPage.clickInicio();
+  await cidadaoPage.clickPSSEducacao();
 });
 
 test('Cidadão -> PSS Saúde 2025', async ({ page }) => {
-  //await menuInicioPage.clickInicio();
+  await cidadaoPage.clickPSSSaude();
+});
+
+test.skip('Cidadão -> Sistema Elotech Oxy', async ({ page }) => {
+  await cidadaoPage.clickSistemaElotechOxy();
 });
 
 test('Cidadão -> Agenda Previsão de Pagamento', async ({ page }) => {
-  //await menuInicioPage.clickInicio();
+  await cidadaoPage.clickAgendaPrevisaoPagamento();
 });
 
-test('Cidadão -> Vacinação', async ({ page }) => {
-  //await menuInicioPage.clickInicio();
+test.skip('Cidadão -> Vacinação', async ({ page }) => {
+  await cidadaoPage.clickVacinacao();
 });
 
 test('Cidadão -> leis do Município', async ({ page }) => {
-  //await menuInicioPage.clickInicio();
+  await cidadaoPage.clickLeisMunicipio();
 });
 
 test('Cidadão -> Estágio', async ({ page }) => {
-  //await menuInicioPage.clickInicio();
+  await cidadaoPage.clickEstagio();
 });
 
-test('Cidadão -> Carta de Serviços', async ({ page }) => {
-  //await menuInicioPage.clickInicio();
+test.skip('Cidadão -> S.I.M', async ({ page }) => {
+  await cidadaoPage.clickSIM();
+});
+
+test.skip('Cidadão -> Carta de Serviços', async ({ page }) => {
+  await cidadaoPage.clickCartaServiços();
 });
 
 test('Cidadão -> SEI', async ({ page }) => {
-  //await menuInicioPage.clickInicio();
+  await cidadaoPage.clickSEI();
 });
 
 test('Cidadão -> Passe do Estudante', async ({ page }) => {
-  //await menuInicioPage.clickInicio();
+  await cidadaoPage.clickPasseEstudante();
+});
+
+test.skip('Cidadão -> ISS Eletrônico', async ({ page }) => {
+  await cidadaoPage.clickISSEletronico();
 });
 
 test('Cidadão -> Consulta Concursos', async ({ page }) => {
-  //await menuInicioPage.clickInicio();
+  await cidadaoPage.clickConsultaConcursos();
 });
 
 test('Cidadão -> Diário Oficial', async ({ page }) => {
-  //await menuInicioPage.clickInicio();
+  await cidadaoPage.clickDiArioOficial();
 });
 
 test('Cidadão -> EMISSÃO DE GUIAS/BOLETOS', async ({ page }) => {
-  //await menuInicioPage.clickInicio();
+  await cidadaoPage.clickEmissaoGuiasBoletos();
 });
 
 test('Cidadão -> Emissão de Certidões', async ({ page }) => {
-  //await menuInicioPage.clickInicio();
+  await cidadaoPage.clickEmissaoCertidoes();
 });
 
 test('Cidadão -> Plano Diretor 2020-2030', async ({ page }) => {
-  //await menuInicioPage.clickInicio();
+  await cidadaoPage.clickPlanoDiretor();
 });
 
 test('Cidadão -> FAQ - LGPD', async ({ page }) => {
-  //await menuInicioPage.clickInicio();
+  await cidadaoPage.clickFaqLGPD();
 });
 
 test('Cidadão -> Portal Maringá compra', async ({ page }) => {
-  //await menuInicioPage.clickInicio();
+  await cidadaoPage.clickPortalMaringaCompra();
 });
 
 test('Cidadão -> Notifica Saúde', async ({ page }) => {
-  //await menuInicioPage.clickInicio();
+  await cidadaoPage.clickNotificaSaude();
 });
 
 test('Cidadão -> Portal Saúde Maringá', async ({ page }) => {
-  //await menuInicioPage.clickInicio();
+  await cidadaoPage.clickPortalSaudeMaringa();
 });
 
 test('Cidadão -> Sala digital do microempreendedor', async ({ page }) => {
-  //await menuInicioPage.clickInicio();
+  await cidadaoPage.clickSalaDigitalMicroempreendedor();
 });
 
 test('Cidadão -> Agencia do Trabalhador', async ({ page }) => {
-  //await menuInicioPage.clickInicio();
+  await cidadaoPage.clickAgenciaTrabalhador();
 });
 
 test('Cidadão -> Vacinação Covid-19', async ({ page }) => {
-  //await menuInicioPage.clickInicio();
+  await cidadaoPage.clickVacinacaoCovid19();
 });
 
-test('Cidadão -> Acesso a Informação', async ({ page }) => {
-  //await menuInicioPage.clickInicio();
+test.skip('Cidadão -> Acesso a Informação', async ({ page }) => {
+  await cidadaoPage.clickAcessoInformacao();
 });
 
 test('Cidadão -> Portal Covid-19', async ({ page }) => {
-  //await menuInicioPage.clickInicio();
+  await cidadaoPage.clickPortalCovid19();
 });
