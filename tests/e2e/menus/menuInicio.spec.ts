@@ -11,5 +11,6 @@ test.beforeEach(async ({ page }) => {
 });
 
 test('Inicio', async ({ page }) => {
+  
   await menuInicioPage.clickInicio();
 });
