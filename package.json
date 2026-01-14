@@ -9,7 +9,7 @@
   "type": "commonjs",
   "description": "",
   "devDependencies": {
-    "@faker-js/faker": "^10.1.0",
+    "@faker-js/faker": "^10.2.0",
     "@playwright/test": "^1.56.1",
     "@types/node": "^24.9.1"
   },
