@@ -32,6 +32,15 @@ export class RegisterUser {
     await this.page.getByTestId('checkbox').check();
   }
 
+  //clicar em Cadastre, após preencher o formulário
+  async clickCadastrar() {
+    await this.page.getByTestId('cadastrar').click();
+  }
+
+  //validar que o usuário foi cadastrado com sucesso, e está logado
+  async validateRegister() {
+    await expect( this.page.locator('p.lead')).toHaveText('Este é seu sistema para administrar seu ecommerce.');
+  }
   
 
  

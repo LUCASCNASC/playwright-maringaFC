@@ -23,6 +23,8 @@ test('Register User', async ({ page }) => {
   registerUser.fillEmail(email);
   registerUser.fillSenha(senha);
   registerUser.checkAdministrador();
+  registerUser.clickCadastrar();
+  registerUser.validateRegister();
   
   
   
