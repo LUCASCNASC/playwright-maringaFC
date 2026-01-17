@@ -1,6 +1,6 @@
 import { test, expect, Page } from '@playwright/test';
 
-export class RegisterUser {
+export class RegisterUserPage {
   readonly page: Page;
 
   constructor(page: Page) {
