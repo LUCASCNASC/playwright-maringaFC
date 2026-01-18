@@ -18,13 +18,12 @@ test.beforeEach(async ({ page }) => {
 });
 
 test('Register User Sucess', async ({ page }) => {
-
   registerUser.fillNome(nome);
   registerUser.fillEmail(email);
   registerUser.fillSenha(senha);
   registerUser.checkAdministrador();
   registerUser.clickCadastrar();
   registerUser.validateRegister();
-  
+
 });
 
