@@ -39,7 +39,7 @@ export class RegisterUserPage {
 
   //validar que o usuário foi cadastrado com sucesso, e está logado
   async validateRegister() {
-    await expect( this.page.locator('p.lead')).toHaveText('Este é seu sistema para administrar seu ecommerce.');
+    await expect(this.page.getByTestId('logout')).toBeVisible();
   }
   
 
