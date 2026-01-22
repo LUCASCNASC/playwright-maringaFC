@@ -7,15 +7,20 @@ export class LoginPage {
     this.page = page;
   }
 
-  //preenceher campo Email
+  //preencher campo Email
   async fillEmail(email: string) {
     await this.page.getByTestId('email').fill(email);
   }
 
-  //preenceher campo Senha
+  //preencher campo Senha
   async fillSenha(senha: string) {
     await this.page.getByTestId('senha').fill(senha);
   } 
+
+  //clicar no botao Entrar, para fazer login
+  async clickEntrar() {
+    await this.page.getByTestId('entrar').click();
+  }
 
 
   
